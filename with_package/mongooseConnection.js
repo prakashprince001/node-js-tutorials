@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const user = require('./Models/users');
-mongoose.connect('mongodb+srv://root:root@cluster0.hucjxrl.mongodb.net/test_node?retryWrites=true&w=majority',
+mongoose.connect('mongodb_url',
 {
     useNewUrlParser: true,
     useUnifiedTopology: true
