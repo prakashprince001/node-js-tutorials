@@ -1,0 +1,11 @@
+body {
+    background-color: red;
+    color: white;
+}
+a {
+    color: white;
+    margin-left: 50px;
+}
+.nav li {
+    display: inline;
+}
